@@ -43,7 +43,7 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <h1>Nashville</h1>
+        <h1>{weatherData.city}</h1>
         <ul className="Description">
           <li>{weatherData.date}</li>
           <li className="text-capitalize">{weatherData.description}</li>
