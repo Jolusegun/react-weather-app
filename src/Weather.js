@@ -11,20 +11,21 @@ export default function Weather() {
               type="search"
               placeholder="Enter your City or State.."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
             <input
               type="submit"
               value="Search"
-              className="btn btn-secondary btn-md"
+              className="btn btn-secondary btn-md w-100"
             />
           </div>
         </div>
       </form>
       <h1>Nashville</h1>
-      <ul>
-        <li>Wednesday, 20:24</li>
+      <ul className="Description">
+        <li>Thursday, September 09, 2021, 00:27:25</li>
         <li>Mostly Cloudy with Light Rain</li>
       </ul>
       <div className="row">
@@ -35,7 +36,9 @@ export default function Weather() {
             id="icon"
             className="float-left"
           />
-          85°F
+
+          <span className="temperature">8</span>
+          <span className="unit">°F</span>
         </div>
         <div className="col-6">
           <ul>
