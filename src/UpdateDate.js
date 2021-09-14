@@ -185,5 +185,9 @@ export default function UpdateDate(props) {
   let hour = hours[props.date.getHours()];
   let minute = minutes[props.date.getMinutes()];
   let second = seconds[props.date.getSeconds()];
-  return `${day}, ${month} ${date}, ${year} ${hour}:${minute}:${second}`;
+  return (
+    <div>
+      {day}, {month} {date}, {year} {hour}:{minute}:{second}
+    </div>
+  );
 }
