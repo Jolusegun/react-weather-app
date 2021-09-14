@@ -25,7 +25,7 @@ export default function WeatherTemperature(props) {
       </span>
     );
   } else {
-      let celsius = (props.fahrenheit - 32) * 5 / 9;
+    let celsius = ((props.fahrenheit - 32) * 5) / 9;
     return (
       <span className="WeatherTemperature">
         <span className="temperature">{Math.round(celsius)}</span>
