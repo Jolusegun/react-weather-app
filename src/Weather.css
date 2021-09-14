@@ -17,6 +17,10 @@
   margin-left: 5px;
 }
 
+.Updatelist {
+  list-style: none;
+}
+
 .Description {
   list-style: none;
   margin-left: -25px;
