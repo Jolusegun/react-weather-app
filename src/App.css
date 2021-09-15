@@ -1,3 +1,10 @@
+
+
+body {
+background: #cccccc;
+  background-image: url("https://cdn.videvo.net/videvo_files/video/free/2016-11/large_watermarked/1080_Silver_white_sparkles_loop_Videvo_preview.mp4");
+}
+
 .App {
   max-width: 550px;
   margin: 30px auto;

@@ -20,7 +20,7 @@ export default function Weatherlot(props) {
         </div>
         <div className="col-6">
           <ul className="Updatelist">
-            <li>Precipitation: {Math.round(props.data.precipitation)}%</li>
+            <li className="precipitation">Precipitation: {Math.round(props.data.precipitation)}%</li>
             <li>Humidity: {Math.round(props.data.humidity)}%</li>
             <li>Wind: {Math.round(props.data.wind)} m/kh</li>
           </ul>
